@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<body>
+transac=in_trans+out_trans
+if((count(in_trans) and count(out_trans)) >10):
+{
+if(sum(in_trans>1000$)
+{
+if(sum(out_trans>800$)
+{
+if(count(transac)>20)
+{
+alert("HIGH RISK")
+}
+}}}
+else{
+if((count(in_trans) or count(out_trans))>6)
+{
+if(600$<sum(in_trans)<1000$)
+{
+if(500$<sum(out_trans)<800$)
+{
+if(10<count(transac)<20)
+{
+alert("MEDIUM RISK")
+}
+}
+}
+}
+else{
+if(count(in_trans) or count(out_trans)<10)
+{
+if(sum(in_trans)<600)
+{
+if(sum(out_trans)<500)
+{
+if(count(transactions)<10)
+{
+alert("LOW RISK")
+}}}}
