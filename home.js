@@ -8,16 +8,16 @@ function CSVAJAX(filepath, callback) {
   this.request.parent = this;
   this.callback = callback;
   this.request.onload = function () {
-    var d = this.response.split("\n"); /*1st separator*/
+    var d = this.response.split("\n");
     var i = d.length;
     while (i--) {
       if (d[i] !== "") d[i] = d[i].split(",");
-      /*2nd separator*/ else d.splice(i, 1);
+       else d.splice(i, 1);
     }
     this.parent.response = d;
     if (typeof this.parent.callback !== "undefined") this.parent.callback(d);
   };
   this.request.send();
 }
-var foo = requestCSV("countries_info.csv");
+var foo = requestCSV("countries_info.csv",callback());
 console.log(foo);
