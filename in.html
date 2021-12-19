@@ -1,0 +1,43 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>User Input Form</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <div class="title">Welcome</div>
+            <form action="/" method="post">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Start Date</span>
+                        <input type="date" name="startdate" placeholder="Select Start Date" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">End Date</span>
+                        <input type="date" name = "enddate" placeholder="Select End Date" required>
+                    </div>
+                    <div class="input-box" >
+                        <label for="Ticker">Ticker</label>
+                        <select id="Tickers" name="tickers">
+                        <option value="Apple">AAPL (Apple)</option>
+                        <option value="Amazon">AMZN (Amazon)</option>
+                        <option value="Facebook">FB (Facebook)</option>
+                        <option value="Microsoft">MSFT (Microsoft)</option>
+                        <option value="Tesla">TSLA (Tesla)</option>
+                        </select>
+                    </div>
+                    <div class="input-box" >
+                        <label for="Benchmark">Benchmark</label>
+                        <select id="Benchmark" name="benchmark">
+                        <option value="Nasdaq">NDX (Nasdaq-100)</option>
+                        </select>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Submit"> 
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
