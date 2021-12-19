@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE > CUSTER RATING SYSTEM </TITLE>
+ <FONT SIZE="12" COLOR="#CC0000"><center>CUSTOMER RATING SYSTEM</FONT>
+</HEAD><br><br></br></br>
+<Body style="display: flex;height:100vh;justify-content: center;align-items: center;background:linear-gradient(135deg,#71b7e6,#9b59b6);">
+  <table border="2" align="left" >
+  <tr >
+  <th>S.No</th>
+  <th>Customer_Id</th>
+  <th>Customer_Name</th>
+  <th>Risk</th>
+  </table>
+</BODY>
+</HTML>
