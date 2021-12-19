@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> Admin page </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+</HEAD>
+
+<Body style="display: flex;
+height:
+100vh;
+justify-content: center;
+align-items: center;
+background:
+linear-gradient(135deg,#71b7e6,#9b59b6);">
+<center><img src="download.jpg"><center><font SIZE
+="6">Here you go dear Admin!!</font><br><br>
+ <center><font SIZE="6">Admin:  </font><input type="text"name="Admin"></br></br>
+ <center><font SIZE="6">Password:  <input type="password" name="Password"required><br>
+  </br>
+  <a href="risk.html"><button type ="submit">Login</button></a>
+</BODY>
+</HTML>
